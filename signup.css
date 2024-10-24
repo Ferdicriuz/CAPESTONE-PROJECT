@@ -9,11 +9,38 @@ font-size: 62.5%;
 }
 
 body{
-    color: skyblue;
+    background-color: skyblue;
 }
 
 .header{
+display: flex;
+justify-content: space-around;
+align-items: center;
 min-width: 100vw;
 min-height: 10vh;
 color: rgb(7, 7, 15);
+}
+
+.header .logo{
+width: 20%;
+height: 9vh;
+border: 6px solid red;
+}
+
+.header .logo{
+align-content: center;
+text-align: center;
+}
+
+.header .logo h1{
+font-size: 15rem;
+}
+
+.header .navicon{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 60%;
+height: 9vh;
+border: 6px solid red;
 }
