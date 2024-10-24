@@ -18,13 +18,14 @@ justify-content: space-around;
 align-items: center;
 min-width: 100vw;
 min-height: 10vh;
-color: rgb(7, 7, 15);
+color: aliceblue;
+background-color: rgb(7, 7, 15);
+border-bottom: 1rem solid white;
 }
 
 .header .logo{
 width: 20%;
 height: 9vh;
-border: 6px solid red;
 }
 
 .header .logo{
@@ -33,7 +34,8 @@ text-align: center;
 }
 
 .header .logo h1{
-font-size: 15rem;
+font-size: 20rem;
+text-shadow: 1rem 1rem red;
 }
 
 .header .navicon{
@@ -42,5 +44,23 @@ justify-content: center;
 align-items: center;
 width: 60%;
 height: 9vh;
-border: 6px solid red;
+}
+
+.header .navicon ul{
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 100%;
+padding: 1rem;
+font-size: 5rem;
+}
+
+.navicon ul a{
+color: aliceblue;
+text-decoration: none;
+list-style: none;
+}
+
+.navicon ul a:hover{
+    color: red;
 }
